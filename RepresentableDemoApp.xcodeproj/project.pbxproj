@@ -12,6 +12,9 @@
 		9DC73D9527B7E3E3000A6418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC73D9427B7E3E3000A6418 /* Assets.xcassets */; };
 		9DC73D9827B7E3E3000A6418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC73D9727B7E3E3000A6418 /* Preview Assets.xcassets */; };
 		9DC73D9F27B7E764000A6418 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73D9E27B7E764000A6418 /* ImagePicker.swift */; };
+		9DC73DA127B7F06E000A6418 /* ESImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73DA027B7F06E000A6418 /* ESImageView.swift */; };
+		9DC73DA327B7F5FB000A6418 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73DA227B7F5FB000A6418 /* Image+Extensions.swift */; };
+		9DC73DA527B7F638000A6418 /* ImagePicker+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73DA427B7F638000A6418 /* ImagePicker+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		9DC73D9427B7E3E3000A6418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC73D9727B7E3E3000A6418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DC73D9E27B7E764000A6418 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9DC73DA027B7F06E000A6418 /* ESImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESImageView.swift; sourceTree = "<group>"; };
+		9DC73DA227B7F5FB000A6418 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		9DC73DA427B7F638000A6418 /* ImagePicker+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			children = (
 				9DC73D9027B7E3E1000A6418 /* RepresentableDemoAppApp.swift */,
 				9DC73D9227B7E3E1000A6418 /* ContentView.swift */,
+				9DC73DA027B7F06E000A6418 /* ESImageView.swift */,
+				9DC73DA227B7F5FB000A6418 /* Image+Extensions.swift */,
 				9DC73D9E27B7E764000A6418 /* ImagePicker.swift */,
+				9DC73DA427B7F638000A6418 /* ImagePicker+Extensions.swift */,
 				9DC73D9427B7E3E3000A6418 /* Assets.xcassets */,
 				9DC73D9627B7E3E3000A6418 /* Preview Content */,
 			);
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC73DA327B7F5FB000A6418 /* Image+Extensions.swift in Sources */,
 				9DC73D9F27B7E764000A6418 /* ImagePicker.swift in Sources */,
 				9DC73D9327B7E3E1000A6418 /* ContentView.swift in Sources */,
+				9DC73DA527B7F638000A6418 /* ImagePicker+Extensions.swift in Sources */,
+				9DC73DA127B7F06E000A6418 /* ESImageView.swift in Sources */,
 				9DC73D9127B7E3E1000A6418 /* RepresentableDemoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +286,7 @@
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to access your photos so you can choose one.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +316,7 @@
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to access your photos so you can choose one.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
