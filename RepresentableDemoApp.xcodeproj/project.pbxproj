@@ -11,6 +11,7 @@
 		9DC73D9327B7E3E1000A6418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73D9227B7E3E1000A6418 /* ContentView.swift */; };
 		9DC73D9527B7E3E3000A6418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC73D9427B7E3E3000A6418 /* Assets.xcassets */; };
 		9DC73D9827B7E3E3000A6418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC73D9727B7E3E3000A6418 /* Preview Assets.xcassets */; };
+		9DC73D9F27B7E764000A6418 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC73D9E27B7E764000A6418 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9DC73D9227B7E3E1000A6418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DC73D9427B7E3E3000A6418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC73D9727B7E3E3000A6418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DC73D9E27B7E764000A6418 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				9DC73D9027B7E3E1000A6418 /* RepresentableDemoAppApp.swift */,
 				9DC73D9227B7E3E1000A6418 /* ContentView.swift */,
+				9DC73D9E27B7E764000A6418 /* ImagePicker.swift */,
 				9DC73D9427B7E3E3000A6418 /* Assets.xcassets */,
 				9DC73D9627B7E3E3000A6418 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC73D9F27B7E764000A6418 /* ImagePicker.swift in Sources */,
 				9DC73D9327B7E3E1000A6418 /* ContentView.swift in Sources */,
 				9DC73D9127B7E3E1000A6418 /* RepresentableDemoAppApp.swift in Sources */,
 			);
